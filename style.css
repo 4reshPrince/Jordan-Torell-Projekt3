@@ -11,8 +11,6 @@
     width: auto;
 }
 
-
-
 .header2-grid {
     margin: 0;
     padding: 5rem 0 2.5rem 0;
@@ -33,7 +31,7 @@ h4 {
 
 .product-grid {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-left: 40px;
     margin-right: 20px;
@@ -44,19 +42,11 @@ h4 {
 
 .watch-card {
     position: relative;
-    height: 12%;
-    max-width: 50vh;
-    color: #000;
-    
-    cursor: pointer;
+    max-width: 37vh;
 }
 
 .watch-card-aside {
-    padding: 6rem 8rem 0;
-    -webkit-transition: -webkit-transform .9s ease-in-out;
-    transition: -webkit-transform .9s ease-in-out;
-    transition: transform .9s ease-in-out;
-    transition: transform .9s ease-in-out,-webkit-transform .9s ease-in-out;
+    padding: 1rem 1rem 0;
 }
 
 .watch-card-image {
@@ -65,7 +55,7 @@ h4 {
 }
 
 .watch-card-text {
-    padding: 5rem 0.5rem 8rem;
+    padding: 3rem 0.5rem 2rem;
     text-align: center;
 }
 
@@ -102,4 +92,8 @@ b {
 
 .watch-card-details {
     color: var(--secondColor);
+}
+
+.hover {
+    
 }
