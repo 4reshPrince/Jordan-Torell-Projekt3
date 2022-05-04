@@ -11,6 +11,11 @@
     width: auto;
 }
 
+.image-header:hover {
+    opacity: 0.5;
+    transition: .4s ease;
+}
+
 .name-header {
     cursor: default;
     margin-top: 60px;
@@ -38,6 +43,11 @@ h4 {
     background-color: #65656528;
     text-align: center;
     cursor: pointer;
+}
+
+.watch-image:hover {
+    transition: .5s;
+    transform: scale(1.05);
 }
 
 .image {
