@@ -18,15 +18,59 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 30% auto 50%;
+    grid-template-columns: 36% auto 50%;
 }
 
 .item2 {
+    margin-top: 90px;
     grid-column-start: 3;
     grid-column-end: 3;
 }
 
 h1 {
-    margin-top: 10px;
-    text-align: center;
+    font-family: HelveticaNeueLTCom;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 150px;
+    text-align: start;
+    margin-left: 90PX;
+}
+
+i {
+    font-size: 60px;
+}
+
+.ref {
+    font-size: 20px;
+    text-align: start;
+    margin-top: 40px;
+    margin-left: 90PX;
+}
+
+p {
+    text-align: start;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 270px;
+}
+
+.plan {
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.plan1 {
+    color: black;
+    text-decoration: none;
+    padding: 23px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border: 1px solid;
+
+}
+
+.plan1:hover {
+    opacity: 0.5;
+    transition: .4s ease;
 }
