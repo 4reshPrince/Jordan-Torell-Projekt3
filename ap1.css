@@ -170,3 +170,28 @@ h2 {
     font-size: 20px;
     text-transform: lowercase;
 }
+
+.grid2-container {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: auto 5% auto;
+}
+
+.item5 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.item6 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.h23 {
+    margin-top: 300px;
+    margin-bottom: 0;
+}
+
+.dial {
+    margin-top: 10px;
+}
