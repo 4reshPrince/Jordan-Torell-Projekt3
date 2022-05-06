@@ -84,6 +84,7 @@ i {
 }
 
 .ref {
+    color: rgb(104, 104, 104);
     font-size: 20px;
     text-align: start;
     margin-top: 40px;
