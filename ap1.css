@@ -1,8 +1,11 @@
+.ap-header {
+    display: grid;
+    grid-template-columns: 20% 23% 57%;
+}
+
 .ap-image-header {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
+    grid-column-start: 3;
+    grid-column-end: 3;
 }
 
 .image-header {
@@ -14,6 +17,31 @@
 .image-header:hover {
     opacity: 0.5;
     transition: .4s ease;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 3% 30% 3%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-top: 50px;
+    
+}
+
+.m-button {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.m1-button {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
 }
 
 .grid-container {
@@ -73,4 +101,57 @@ p {
 .plan1:hover {
     opacity: 0.5;
     transition: .4s ease;
+}
+
+.grid1-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 49% 30%;   
+}
+
+.item3 {
+    margin-top: 100px;
+}
+
+.item4 {
+    margin-top: 90px;
+    margin-right: 0;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+h2 {
+    font-family: HelveticaNeueLTCom;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 150px;
+    text-align: start;
+    margin-left: 90PX;
+}
+
+.p1 {
+    text-align: start;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.info {
+    list-style: none;
+    margin-left: 50PX;
+}
+
+.info-list {
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.text-up {
+    font-size: 35px;
+}
+
+.text-upp {
+    font-size: 20px;
+    text-transform: lowercase;
 }
