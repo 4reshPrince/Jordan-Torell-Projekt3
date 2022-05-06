@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    color: white;
+}
+
 .ap-header {
     display: grid;
     grid-template-columns: 20% 23% 57%;
@@ -25,7 +30,6 @@
     grid-column-start: 2;
     grid-column-end: 2;
     margin-top: 50px;
-    
 }
 
 .m-button {
@@ -33,7 +37,12 @@
     grid-column-end: 1;
     font-size: 16px;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+.m-button:hover {
+    opacity: 0.5;
+    transition: .4s ease;
 }
 
 .m1-button {
@@ -41,7 +50,12 @@
     grid-column-end: 3;
     font-size: 16px;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+.m1-button:hover {
+    opacity: 0.5;
+    transition: .4s ease;
 }
 
 .grid-container {
@@ -89,7 +103,7 @@ p {
 }
 
 .plan1 {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 23px;
     padding-left: 90px;
