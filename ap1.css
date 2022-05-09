@@ -35,7 +35,7 @@ body {
 .m-button {
     grid-column-start: 1;
     grid-column-end: 1;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     color: white;
 }
@@ -48,7 +48,7 @@ body {
 .m1-button {
     grid-column-start: 3;
     grid-column-end: 3;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     color: white;
 }
