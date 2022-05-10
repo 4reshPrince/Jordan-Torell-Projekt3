@@ -195,3 +195,28 @@ h2 {
 .dial {
     margin-top: 10px;
 }
+
+.grid3-container {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 30% 19.8% auto;
+}
+
+.item7 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.item8 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.h24 {
+    margin-top: 320px;
+    margin-bottom: 0;
+}
+
+.bracelet {
+    margin-top: 30px;
+}
