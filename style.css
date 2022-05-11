@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .ap-header {
     display: grid;
     grid-template-columns: 20% 23% 57%;
@@ -111,4 +115,66 @@ b {
     color: #656565;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+}
+
+.ap-footer {
+    margin-top: 6%;
+    width: 100%;
+    background-color: #02291f;
+    color: #fff;
+    padding: 110px 0px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.head {
+    cursor: default;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    transition: .4s ease;
+    color: rgba(172, 141, 76, 0.9);
+}
+
+.link1 {
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.link1:hover {
+    transition: .4s ease;
+    color: rgba(172, 141, 76, 0.9);
+}
+
+.link2 {
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.link2:hover {
+    transition: .4s ease;
+    color: rgba(172, 141, 76, 0.9);
+}
+
+.margin {
+    margin-top: 30px;
 }

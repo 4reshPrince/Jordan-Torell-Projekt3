@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: white;
+    margin: 0;
 }
 
 .ap-header {
@@ -110,12 +111,12 @@ p {
     padding-left: 90px;
     padding-right: 90px;
     border: 1px solid;
-
 }
 
 .plan1:hover {
-    opacity: 0.5;
     transition: .4s ease;
+    background-color: rgba(172, 141, 76, 0.9);
+    color: black;
 }
 
 .grid1-container {
@@ -218,5 +219,67 @@ h2 {
 }
 
 .bracelet {
+    margin-top: 30px;
+}
+
+.ap-footer {
+    margin-top: 8%;
+    width: 100%;
+    background-color: #02291f;
+    color: #fff;
+    padding: 110px 0px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.head {
+    cursor: default;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    transition: .4s ease;
+    color: rgba(172, 141, 76, 0.9);
+}
+
+.link1 {
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.link1:hover {
+    transition: .4s ease;
+    color: rgba(172, 141, 76, 0.9);
+}
+
+.link2 {
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.link2:hover {
+    transition: .4s ease;
+    color: rgba(172, 141, 76, 0.9);
+}
+
+.margin {
     margin-top: 30px;
 }
